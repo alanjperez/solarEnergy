@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(193, 248, 228);
+    font-family: 'Rajdhani', sans-serif;
+}
+/*estiolos index*/
+header{
+   background-color: rgb(141, 244, 210);
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items:center;
+   height: 100px;
+}
+header img{
+    height:60px;
+    width: 110px;
+    margin: 10px;
+}
+.topMenu ul {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+}
+.topMenu ul li a{
+    text-decoration: none; 
+}
+/*estilos main index*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+.container-indx h2 {
+    margin-top: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 90px;
+}
+.containerTop{     
+    margin:200px 70px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: justify;
+}
+.containerTop p {
+    display: flex;
+    width: 500px;
+    height: 200px;
+}
+.containerTop button {
+    height: 20px;
+    width: 150px;
+    background-color: rgb(8, 104, 130);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.containerImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: -350px 70px;
+}
+.containerImg img {
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.brands img {
+    width: 50%;
+    height: 50%;
+    margin: 60px;
+}
+/* estilos footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 244, 210);
+}
+footer img {
+    margin: 5px;
+    height:60px;
+    width: 110px;
+}
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 15px;
+}
+.socialMedia img {
+    width: 60px;
+    height: 60px;
+}   
+
+/* PAGINA CONTACTO*/
+/* main */
+
+.mainContacto {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.formTitle {
+    margin: 20px;
+}
+.formContacto {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.formComentario {
+    height: 200px;
+    width: 400px;
+
+}
+.formSubmit{
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    align-items: center;
+}
+/* PAGINA SOBRE NOSOTROS */
+/*  main */
+
+.mainSobreNosotros {
+    margin: 70px;
+}
+.mainSobreNosotros img {
+    width: 400px;
+    height: 300px;
+    
+}
+.sobreNosotros-1 {
+    display: flex ;   
+}
+.sobreNosotros-1 img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 100px; 
+}
+.sobreNosotros-1 h3 {
+    margin: 25px 0 0 70px;
+
+}
+.sobreNosotros-1 p {
+    margin: 80px 250px 0 -150px;
+    width: 200px;
+    height: 200px;
+}
+.sobreNosotros-2 img {
+    display: row;
+    margin: 50px 0px 0 70px;
+}
+.sobreNosotros-2 h3 {   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 0 250px;
+}
+.sobreNosotros-2 p {
+    display: flex;
+    margin: -300px 530px 200px;
+    width: 200px;
+    height: 200px;
+    
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 244, 210);
+}
+/* PAGINA PRODUCTOS */
+/* main */
+.productosMain h3 {
+    text-align: center;
+    font-size: 150px;
+}
+.productosMain .producto-1  h3 {
+    text-align: center;
+    font-size: 100px;
+}
+.productosMain .producto-2  h3 {
+    text-align: center;
+    font-size: 100px;
+}
+.productosMain .producto-3  h3 {
+    text-align: center;
+    font-size: 100px;
+}
+.productosMain  img {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: 0 0 0 350px;
+}
+.productosMain p {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 400px;
+      
+}
+/* PAGINA SUCURSALES*/
+/* main */
+.sucursal-1 {
+    margin-bottom: 200px;
+}
+.sucursal-1 h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 100px;
+}
+.sucursal-1 img {
+    height: 300px;
+    margin-left: 300px;
+
+}
+.sucursal-1 p {
+    margin: 10px 0 0 380px;
+    height: 40px;
+    width: 350px;
+
+}
