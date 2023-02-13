@@ -7,7 +7,7 @@ body{
     background-color: rgb(193, 248, 228);
     font-family: 'Rajdhani', sans-serif;
 }
-/*estiolos index*/
+/*estiolos header*/
 
 nav .container-fluid {
  background-color: #c1f8e4;
@@ -29,7 +29,7 @@ main {
     flex-direction: column;
 }
 .container-indx h2 {
-    margin-top: 410px;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -39,11 +39,11 @@ main {
 .containerTop {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 50%;
+    width: 40%;
 }
 .containerTop p { 
-    width: 400px;
-    height: 200px;
+    width: 290px;
+    height: 300px;
 }
 .containerTop button {
     display: grid;
@@ -54,27 +54,26 @@ main {
     border: none;
     border-radius: 5px;
 }
-.containerImg {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: -350px 70px;
-}
-.containerImg img {
-    margin-top: 20px;
-    width: 500px;
-    height: 500px;
+.containerIndxTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin: 20px;
 }
 
+.containerImg img {
+    
+    width: 400px;
+    height: 400px;
+}
 .brands {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
 
 }
 .brands img {
-    width: 50%;
+    width: 40%;
     height: 50%;
     margin: 60px;
 }
