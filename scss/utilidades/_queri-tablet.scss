@@ -1,0 +1,47 @@
+@media only screen and (min-width: 401px) and (max-width: 768px) {
+    /* Styles for phones and tablets with a width between 481px and 768px */
+    .menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .navbar-brand img {
+    width: 120px;
+    }
+    .navbar-toggler {
+    margin-left: auto;
+    }
+    .offcanvas-header h5 {
+    font-size: 1.5rem;
+    }
+    .offcanvas-body {
+    padding: 1rem;
+    }
+    .navbar-nav {
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    }
+    .nav-item {
+    margin-bottom: 1rem;
+    text-align: center;
+    }
+    .containerIndxTwo {
+    grid-template-columns: auto;
+    }
+    .containerTop h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    }
+    .containerTop p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    }
+    .containerTop button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    }
+}

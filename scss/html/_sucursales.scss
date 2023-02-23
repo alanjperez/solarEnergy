@@ -1,0 +1,17 @@
+.sucursal-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    justify-content: center;
+    margin: 200px;
+    
+
+    img {
+        width: 600px;
+        height: 550px
+    }
+    p {
+        font-size: 2rem;
+        display: grid;
+        justify-content: center;
+    }
+}

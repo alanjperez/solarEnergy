@@ -1,0 +1,90 @@
+.containerIndxTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-top: 200px;
+    gap: 1rem;
+    background-color: $bgc-html;
+
+    .containerTop {
+        display: grid;
+        align-items: end;
+        margin: 40px;
+        
+        button {
+            height: 40px;
+            width: 140px;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        h1{
+            font-size: 4rem;
+        }
+        h1:hover {
+            border-radius: 2px;
+            border-color: rgb(3, 83, 111);
+            cursor: pointer;
+            transform: scale(0.75);
+        }
+    }
+
+    p{
+        font-size: 2rem;
+        gap: 30px;
+    }
+    .containerImg {
+        display: grid;
+        align-self: center;
+        margin-left: 60px;
+    }
+
+    .containerImg img {
+        width: 400px;
+        height: 250px;
+    }
+
+}
+
+
+h2 {
+    font-size: 5rem;
+    background-color: $bgc-html;
+    text-align: center;
+    }
+
+.brands {
+    background-color: $bgc-html;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    background-color: $bgc-html;
+    height: 80px;
+    gap: 0.8rem;
+    
+    .brand-1{
+        display: grid;
+        grid-template-rows: 100%;
+        justify-content: center;
+    }
+
+    .brand-2{
+        display: grid;
+        grid-template-rows: 100%;
+        justify-content: center;
+    }
+
+    .brand-1 img {
+        height: 60px;
+        width: 220px;
+    }
+
+    .brand-2 img {
+        display: grid;
+        height: 60px;
+        width: 220px;
+    }
+
+    
+}

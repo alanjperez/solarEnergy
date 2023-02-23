@@ -1,0 +1,45 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: .8rem;
+}
+body {
+    background-color: $bgc-html;
+}
+
+header {
+    .menu-container {
+        background-color: $bgc-html;
+
+        img {
+            width: $logo-width;
+            height: $logo-height;
+        }
+
+    }
+}
+
+footer {
+    background-color: $bgc-html;
+    margin: 30px;
+
+    .containerFooter {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        margin: 30px;
+    }
+
+    .logo-footer {
+        height: $logo-height;
+        width: $logo-width;
+    }
+        
+    
+    .socialMedia img {
+        width: $social-icons-width;
+        height: $social-icons-height;
+    } 
+}    
