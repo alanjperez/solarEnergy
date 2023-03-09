@@ -1,40 +1,20 @@
 .mainSobreNosotros{
     margin-top:180px;
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
-    align-items: center;
     
+    p {
+        font-size: 1.5rem;
+        height: 250px;
+        width: 380px;
+        margin-top: 15px;
+    }
     img {
         height: 380px;
         width: 380px;
-        border-radius: $img-radius;
+        border-radius: $img-radius;  
     }
-    p {
-        height: 200px;
-        width: 150px;
-    }
-}
-.sobreNosotros-1 {
-    display: grid;
-    grid-template-rows: repeat(3, 50%);
-    justify-content: center;
-    p {
-        font-size: 1rem;
-        height: 250px;
-        width: 380px;
-        margin-top: 15px;
+    .sobreNosotros-1, .sobreNosotros-2 {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content:center;
     }
 }
-
-.sobreNosotros-2 {
-    display: grid;
-    grid-template-rows: repeat(3, 50%);
-    justify-content: center;
-    p {
-        font-size: 1rem;
-        height: 250px;
-        width: 380px;
-        margin-top: 15px;
-    }
-}
-

@@ -27,6 +27,11 @@ footer {
     width: 40px;
     height: 40px; }
 
+.menu button {
+  background-color: #60bec1;
+  height: 50px;
+  width: 50px; }
+
 .containerIndxTwo {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
@@ -73,13 +78,19 @@ h2 {
   grid-template-columns: 50% 50%;
   align-items: center;
   background-color: #8ae5e8;
-  height: 80px;
-  gap: 0.8rem; }
-  .brands .brand-1 {
-    display: grid;
-    grid-template-rows: 100%;
-    justify-content: center; }
-  .brands .brand-2 {
+  height: 50px;
+  gap: 8rem;
+  /*.brand-2{
+        display: grid;
+        grid-template-rows: 100%;
+        justify-content: center;
+    }*/ }
+  .brands img:hover {
+    border-radius: 2px;
+    border-color: #03536f;
+    cursor: pointer;
+    transform: scale(0.75); }
+  .brands .brand-1 .brand-2 {
     display: grid;
     grid-template-rows: 100%;
     justify-content: center; }
@@ -139,115 +150,96 @@ main h2 {
     width: 400px; }
 
 .mainSobreNosotros {
-  margin-top: 180px;
-  display: grid;
-  grid-template-columns: repeat(1, 100%);
-  align-items: center; }
+  margin-top: 180px; }
+  .mainSobreNosotros p {
+    font-size: 1.5rem;
+    height: 250px;
+    width: 380px;
+    margin-top: 15px; }
   .mainSobreNosotros img {
     height: 380px;
     width: 380px;
     border-radius: 50px; }
-  .mainSobreNosotros p {
-    height: 200px;
-    width: 150px; }
+  .mainSobreNosotros .sobreNosotros-1, .mainSobreNosotros .sobreNosotros-2 {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center; }
 
-.sobreNosotros-1 {
+.sucursal {
   display: grid;
-  grid-template-rows: repeat(3, 50%);
-  justify-content: center; }
-  .sobreNosotros-1 p {
-    font-size: 1rem;
-    height: 250px;
-    width: 380px;
-    margin-top: 15px; }
-
-.sobreNosotros-2 {
-  display: grid;
-  grid-template-rows: repeat(3, 50%);
-  justify-content: center; }
-  .sobreNosotros-2 p {
-    font-size: 1rem;
-    height: 250px;
-    width: 380px;
-    margin-top: 15px; }
-
-.sucursal-1 {
-  display: grid;
-  grid-template-columns: repeat(2, 4fr);
+  grid-template-columns: repeat(3, auto);
   justify-content: center;
-  margin: 200px; }
-  .sucursal-1 img {
+  margin: 100px; }
+  .sucursal h2 {
+    font-size: 4rem;
+    margin-bottom: 10px; }
+  .sucursal img {
     width: 600px;
     height: 550px; }
-  .sucursal-1 p {
+  .sucursal p {
     font-size: 2rem;
+    margin-top: 10px;
     display: grid;
     justify-content: center; }
 
-@media only screen and (max-width: 400px) {
-  .menu-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-  .navbar-brand img {
-    width: 100px; }
-  .navbar-toggler {
-    margin-left: auto; }
-  .offcanvas-header h5 {
-    font-size: 1.5rem; }
-  .offcanvas-body {
-    padding: 1rem; }
-  .navbar-nav {
-    width: 100%;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem; }
-  .nav-item {
-    margin-bottom: 1rem;
-    text-align: center; }
-  .containerIndxTwo {
-    grid-template-columns: auto; }
-  .containerTop h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    text-align: center; }
-  .containerTop p {
-    margin-bottom: 1rem;
+/* Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px) {
+  .sobreNosotros-1 {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center; }
+  p {
     font-size: 1rem; }
-  .containerTop button {
-    display: block;
-    margin: 0 auto;
-    margin-top: 1rem; }
-  .containerImg img {
-    width: 100%;
-    margin-bottom: 2rem; }
+  main h2 {
+    font-size: 1rem; }
+  .productosSection {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center; }
+  .sucursal img {
+    height: 250px;
+    width: 250px; }
   .brands {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
     justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
-  .brand-1 img,
-  .brand-2 img {
-    width: 120px;
-    margin: 0 1rem; }
-  .containerFooter {
-    text-align: center;
-    padding: 1rem; }
-  .logo-footer {
-    width: 100px;
-    margin-bottom: 1rem; }
-  .socialMedia div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem; }
-  .socialMedia img {
-    width: 24px;
-    margin-right: 0.5rem; }
-  .socialMedia span {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #333; } }
+    font-size: 3rem;
+    margin-bottom: 250px; }
+  .containerIndxTwo {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: start;
+    width: 150px; }
+  .containerIndxTwo p h1 button {
+    width: 70%;
+    margin-left: 50px;
+    font-size: .5rem; }
+  .containerIndxTwo h2 {
+    font-size: 1rem; }
+  .containerImg img {
+    width: 200px;
+    height: 125px; } }
+
+@media (min-width: 1200px) {
+  .containerIndxTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-top: 200px;
+    gap: 1rem; }
+    .containerIndxTwo p {
+      width: 400px;
+      height: 400px; }
+    .containerIndxTwo button {
+      margin-top: 30px; }
+    .containerIndxTwo .containerImg {
+      width: 400px;
+      height: 250px; }
+  .brands {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center; }
+  h2 {
+    font-size: 2rem; } }
 
 @media only screen and (min-width: 401px) and (max-width: 768px) {
   /* Styles for phones and tablets with a width between 481px and 768px */

@@ -1,82 +1,85 @@
-@media only screen and (max-width: 400px) {
-    .menu-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px) {
+    .sobreNosotros-1 {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+
     }
+    p {
+        font-size: 1rem;
     }
-    .navbar-toggler {
-    margin-left: auto;
+
+    main h2{
+        font-size: 1rem;
     }
-    .offcanvas-header h5 {
-    font-size: 1.5rem;
+    .productosSection {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
     }
-    .offcanvas-body {
-    padding: 1rem;
-    }
-    .navbar-nav {
-    width: 100%;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    }
-    .nav-item {
-    margin-bottom: 1rem;
-    text-align: center;
+    .sucursal {
+        img {
+            height: 250px;
+            width: 250px;   
+        }
+        
+    }  
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        font-size: 3rem;
+        margin-bottom: 250px;
     }
     .containerIndxTwo {
-    grid-template-columns: auto;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: start;
+        width: 150px;
+        
+        
     }
-    .containerTop h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
+    .containerIndxTwo p h1 button{
+        width: 70%;
+        margin-left: 50px;
+        font-size: .5rem;
+        
     }
-    .containerTop p {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    }
-    .containerTop button {
-    display: block;
-    margin: 0 auto;
-    margin-top: 1rem;
+    .containerIndxTwo h2 {
+        font-size: 1rem;
     }
     .containerImg img {
-    width: 100%;
-    margin-bottom: 2rem;
+        width: 200px;
+        height: 125px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .containerIndxTwo {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin-top: 200px;
+        gap: 1rem;
+
+        p {
+            width: 400px;
+            height: 400px
+        }
+        button {
+            margin-top:30px
+        }
+        .containerImg {
+            width: 400px;
+            height: 250px;
+        }
     }
     .brands {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
     }
-    .brand-1 img,
-    .brand-2 img {
-    width: 120px;
-    margin: 0 1rem;
+    h2 {
+        font-size: 2rem;
     }
-    .containerFooter {
-    text-align: center;
-    padding: 1rem;
-    }
-    .logo-footer {
-    width: 100px;
-    margin-bottom: 1rem;
-    }
-    .socialMedia div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    }
-    .socialMedia img {
-    width: 24px;
-    margin-right: 0.5rem;
-    }
-    .socialMedia span {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #333;
-    }
-    }
+}

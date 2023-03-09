@@ -1,9 +1,13 @@
-.sucursal-1 {
+.sucursal {
     display: grid;
-    grid-template-columns: repeat(2, 4fr);
+    grid-template-columns: repeat(3, auto);
     justify-content: center;
-    margin: 200px;
+    margin: 100px;
     
+    h2 {
+        font-size: 4rem;
+        margin-bottom: 10px;
+    }
 
     img {
         width: 600px;
@@ -11,6 +15,7 @@
     }
     p {
         font-size: 2rem;
+        margin-top: 10px;
         display: grid;
         justify-content: center;
     }

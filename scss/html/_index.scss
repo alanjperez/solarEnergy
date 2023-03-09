@@ -1,3 +1,8 @@
+.menu button {
+    background-color: #60bec1;
+    height: 50px;
+    width: 50px;
+}
 .containerIndxTwo {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -60,20 +65,27 @@ h2 {
     grid-template-columns: 50% 50%;
     align-items: center;
     background-color: $bgc-html;
-    height: 80px;
-    gap: 0.8rem;
-    
-    .brand-1{
+    height: 50px;
+    gap: 8rem;
+
+    img:hover {
+        border-radius: 2px;
+        border-color: rgb(3, 83, 111);
+        cursor: pointer;
+        transform: scale(0.75);
+    }
+    .brand-1 .brand-2{
         display: grid;
         grid-template-rows: 100%;
         justify-content: center;
+        
     }
 
-    .brand-2{
+    /*.brand-2{
         display: grid;
         grid-template-rows: 100%;
         justify-content: center;
-    }
+    }*/
 
     .brand-1 img {
         height: 60px;
